@@ -1,10 +1,13 @@
 {
   "name": "admin-command",
   "version": "1.0.0",
-  "description": "The `/admin` command hook =========================",
+  "description": "The `/admin` command hook", 
   "main": "index.js",
   "scripts": {
     "test": "tap test.js"
+  },
+  "bin": {
+      "admin-command-ingest": "ingest.js"
   },
   "repository": {
     "type": "git",
